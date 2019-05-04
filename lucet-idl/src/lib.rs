@@ -5,7 +5,7 @@ mod backend;
 mod c;
 mod cache;
 mod config;
-mod errors;
+mod error;
 mod generator;
 mod lexer;
 mod package;
@@ -17,7 +17,7 @@ mod types;
 
 pub use crate::backend::{Backend, BackendConfig};
 pub use crate::config::Config;
-pub use crate::errors::IDLError;
+pub use crate::error::IDLError;
 pub use crate::target::Target;
 
 use crate::cache::Cache;
