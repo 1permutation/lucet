@@ -11,7 +11,7 @@ mod module;
 mod package;
 mod parser;
 mod pretty_writer;
-//mod rust;
+mod rust;
 mod target;
 mod types;
 
