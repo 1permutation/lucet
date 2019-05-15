@@ -4,6 +4,7 @@ extern crate failure;
 mod backend;
 mod c;
 mod config;
+mod data_layout;
 mod error;
 mod generator;
 mod lexer;
