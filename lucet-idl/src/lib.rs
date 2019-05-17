@@ -13,7 +13,6 @@ mod package;
 mod parser;
 mod pretty_writer;
 mod rust;
-mod target;
 mod types;
 
 pub use crate::backend::Backend;
@@ -21,7 +20,6 @@ pub use crate::config::Config;
 pub use crate::error::IDLError;
 pub use crate::module::Module;
 pub use crate::package::Package;
-pub use crate::target::Target;
 pub use crate::types::{
     AtomType, Attr, DataType, DataTypeRef, FuncDecl, FuncRet, Ident, Location, Name, Named,
 };
